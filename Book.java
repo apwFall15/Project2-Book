@@ -58,7 +58,11 @@ class Book
      * Sets the book's reference number
      */
     public void setRefNumber(String ref){
-        refNumber = ref;
+        if(ref.length() >= 3){
+            refNumber = ref;
+        }else{
+            System.out.println("Invalid Reference Number!");
+        }
     }
     
     /**
