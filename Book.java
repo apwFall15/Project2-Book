@@ -36,4 +36,17 @@ class Book
         return title;
     }
     
+    /**
+     * Prints the Book's author to the terminal window
+     */
+    public void printAuthor(){
+        System.out.println("The book's author is: " + author);
+    }
+    
+    /**
+     * Prints the Book's title to the terminal window
+     */
+    public void printTitle(){
+        System.out.println("The book's title is: " + title);
+    }
 }
