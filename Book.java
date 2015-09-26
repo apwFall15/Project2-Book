@@ -58,4 +58,15 @@ class Book
     public void printTitle(){
         System.out.println("The book's title is: " + title);
     }
+    
+    /** 
+     * Prints all of the book's information to the terminal window
+     */
+    public void printDetails(){
+        System.out.println("*** Book Details ***");
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Length: " + pages + " pages");
+        System.out.println("********************");
+    }
 }
